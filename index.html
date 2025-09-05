@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joruri Sheba | HOME</title>
-
+    <!-- fav icon -->
     <link
       rel="shortcut icon"
       href="./assets/logo-dark.png"
@@ -17,6 +17,15 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -24,7 +33,9 @@
       <section
         class="max-w-[1920px] flex flex-col items-center gap-4 p-5 lg:flex-row lg:justify-between lg:items-center lg:gap-0"
       >
-        <div class="flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left lg:gap-3">
+        <div
+          class="flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left lg:gap-3"
+        >
           <img class="h-[50px] w-[50px]" src="./assets/logo.png" alt="" />
           <h1
             class="font-bold text-[27px] text-sm/8 text-[#006747] text-shadow-lg/15"
@@ -62,15 +73,488 @@
 
       <!-- banner section -->
       <section
-        class="max-w-[1920px]  h-[240px] bg-gradient-to-r from-[#013223] to-[#006747] "
+        class="max-w-[1920px] h-[240px] bg-gradient-to-r from-[#013223] to-[#006747]"
       >
-      <div class="flex justify-center flex-col items-center p-8">
-        <img class="h-[90px] w-[90px]" src="./assets/logo-dark.png" alt="">
-        <h1 class="text-white font-bold text-[25px]">জরুরি সেবা ডিরেক্টরি</h1>
-        <p class="text-white text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
-      </div>
-    
-    </section>
+        <div class="flex justify-center flex-col items-center p-8">
+          <img class="h-[90px] w-[90px]" src="./assets/logo-dark.png" alt="" />
+          <h1 class="text-white font-bold text-[25px]">জরুরি সেবা ডিরেক্টরি</h1>
+          <p class="text-white text-center">
+            Government Emergency Services at Your Fingertip – A Project by
+            Government of the People’s Republic of Bangladesh
+          </p>
+        </div>
+      </section>
     </header>
+    <main>
+      <!-- card section -->
+      <section class="bg-[#41FF6B1A] p-6 flex justify-between">
+        <div class="grid grid-cols-3 gap-3">
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- 7 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- 8 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+          <!-- 9 -->
+          <div
+            class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
+          >
+            <div class="flex justify-between items-center p-2">
+              <div
+                class="h-[40px] w-[40px] bg-[#FFE3E2] flex justify-center items-center rounded-lg"
+              >
+                <img
+                  class="h-[30px] w-[30px]"
+                  src="./assets/emergency.png"
+                  alt=""
+                />
+              </div>
+              <button class="btn btn-square border-none bg-white shadow-none">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                  stroke="currentColor"
+                  class="size-[1.2em]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <h1 class="font-bold text-[17px]">জাতীয় জরুরি সেবা</h1>
+            <p class="text-[#5C5C5C]">National Emergency</p>
+            <h1 class="font-bold text-[24px]">999</h1>
+            <div
+              class="w-[65px] h-[25px] rounded-2xl bg-gray-200 flex items-center justify-center"
+            >
+              <p class="text-[12px] text-center text-[#5C5C5C]">সার্বজনীন</p>
+            </div>
+            <button></button>
+            <div class="flex justify-between">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+                Wide
+              </button>
+              <button
+                class="btn btn-wide w-[120px] h-[35px] bg-[#00A63E] text-white"
+              >
+                <i class="fa-solid fa-phone"></i>Call
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- histry section -->
+         <div class="w-[280px] border-2 mx-h-[1140px]">
+
+         </div>
+      </section>
+    </main>
   </body>
 </html>
