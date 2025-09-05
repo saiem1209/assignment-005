@@ -47,14 +47,16 @@
 
         <div>
           <button
+
             class="btn rounded-3xl w-[115px] h-[45px] bg-[#41FF6B1A] font-bold text-xl"
           >
-            0
+            <span  id="favourites-btn">0</span>
             <div>
               <img class="w-[25px] h-[25px]" src="./assets/heart.png" alt="" />
             </div>
           </button>
           <button
+            id=""
             class="btn rounded-3xl w-[115px] h-[45px] bg-[#41FF6B1A] font-bold text-xl"
           >
             100
@@ -87,8 +89,12 @@
     </header>
     <main>
       <!-- card section -->
-      <section class="bg-[#41FF6B1A] p-6 flex flex-col lg:flex-row gap-6 items-center lg:items-start">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 flex-1r">
+      <section
+        class="bg-[#41FF6B1A] p-6 flex flex-col lg:flex-row gap-10 items-center lg:items-start mx-auto"
+      >
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 flex-1r"
+        >
           <div
             class="w-[280px] h-[260px] rounded-lg shadow-lg border-gray-300 bg-white p-4"
           >
@@ -102,7 +108,9 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button
+                class="btn btn-square border-none bg-white shadow-none favourites-btn"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -154,7 +162,7 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -205,7 +213,7 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -256,7 +264,7 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -332,9 +340,8 @@
             >
               <p class="text-[12px] text-center text-[#5C5C5C]">সহায়তা</p>
             </div>
-            <button></button>
             <div class="flex justify-between">
-              <button class="btn btn-wide w-[120px] h-[35px] bg-white">
+              <button class="btn btn-wide w-[120px] h-[35px] bg-white favourites-btn5">
                 Wide
               </button>
               <button
@@ -358,7 +365,7 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -409,7 +416,7 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn7">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -456,7 +463,7 @@
               >
                 <img class="h-[30px] w-[30px]" src="./assets/brac.png" alt="" />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn8">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -507,7 +514,7 @@
                   alt=""
                 />
               </div>
-              <button class="btn btn-square border-none bg-white shadow-none">
+              <button class="btn btn-square border-none bg-white shadow-none favourites-btn9">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -566,5 +573,7 @@
         </div>
       </section>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
