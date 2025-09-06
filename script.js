@@ -74,3 +74,9 @@ for(let call of CallBtns){
         
     });
 }
+
+
+document.getElementById('clear-btn').addEventListener('click', function(){
+    const historyContainer = getelement('history-container');
+    historyContainer.innerHTML= "";
+})
