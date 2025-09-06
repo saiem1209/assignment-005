@@ -37,6 +37,7 @@ function increaseCopy(){
     const OldCopyValue = parseInt(oldCopy);
     const neWCopy = OldCopyValue + 1;
     document.getElementById('copy-amnt').innerText = neWCopy;
+    alert('text copied!');
 }
 
 const now = new Date();
@@ -80,3 +81,25 @@ document.getElementById('clear-btn').addEventListener('click', function(){
     const historyContainer = getelement('history-container');
     historyContainer.innerHTML= "";
 })
+
+
+const copyButtons = document.querySelectorAll('.copy-btnn');
+
+copyButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const targetSelector = button.dataset.target;
+    if (!targetSelector) return;
+
+    const numberElement = document.querySelector(targetSelector);
+    if (!numberElement) return;
+
+    const numberText = numberElement.innerText.trim();
+
+    navigator.clipboard.writeText(numberText).then(() => {
+      button.innerHTML = '<i class="fa-solid fa-check"></i> Copied!';
+      setTimeout(() => {
+        button.innerHTML = '<i class="fa-solid fa-copy"></i> Copy';
+      }, 1500);
+    });
+  });
+});
