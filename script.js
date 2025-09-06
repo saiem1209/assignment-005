@@ -1,21 +1,41 @@
+const favouritesButton = document.querySelectorAll('.favourites-btn');
+for(let favourite of favouritesButton){
+    favourite.addEventListener('click', increaseHeart)
+}
 
 function increaseHeart(){
-        console.log("clicked");
-
     const oldFav = document.getElementById('favourites-btn').innerText;
     const oldd = parseInt(oldFav);
     const neWvalue = oldd + 1;
     document.getElementById('favourites-btn').innerText = neWvalue;
 
 }
-document.querySelector('.favourites-btn').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn2').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn3').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn4').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn5').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn6').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn7').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn8').addEventListener('click', increaseHeart);
-document.querySelector('.favourites-btn9').addEventListener('click', increaseHeart);
+
+const CallButton = document.querySelectorAll('.call-btn');
+for(let call of CallButton){
+    call.addEventListener('click', decreseCoin)
+}
+function decreseCoin(){
+    const oldCoin = document.getElementById('coin-amnt').innerText;
+    const OldCoinValue = parseInt(oldCoin);
+    const neWvalue = OldCoinValue - 20;
+    // if(neWvalue < 0){
+    //     alert('not enough coin');
+    //     return;
+    // }
+    document.getElementById('coin-amnt').innerText = neWvalue;
+
+}
 
 
+const copyButton = document.querySelectorAll('.copy-btnn');
+for(let copy of copyButton){
+    copy.addEventListener('click', increaseCopy);
+}
+
+function increaseCopy(){
+    const oldCopy = document.getElementById('copy-amnt').innerText;
+    const OldCopyValue = parseInt(oldCopy);
+    const neWCopy = OldCopyValue + 1;
+    document.getElementById('copy-amnt').innerText = neWCopy;
+}
